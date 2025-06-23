@@ -2,3 +2,6 @@ matplotlib==3.9.4
 numpy==2.0.1
 pandas==2.2.3
 seaborn==0.13.2
+Selenium==4.15.2
+BeautifulSoup==4.13.4
+Versi Requests==2.32.3
