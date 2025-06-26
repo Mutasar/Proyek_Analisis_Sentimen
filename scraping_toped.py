@@ -60,7 +60,7 @@ def scrape_tokopedia_reviews(product_url, max_pages=3):
     driver.quit()
     return pd.DataFrame(reviews)
 
-# Ganti dengan URL produk Tokopedia yang ingin Anda scrape ulasannya
+# scrape ulasan
 url_produk = "https://gql.tokopedia.com/graphql/ShopReviewList"
 df_ulasan = scrape_tokopedia_reviews(url_produk, max_pages=3)
 print(df_ulasan.head())
